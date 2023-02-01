@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calc.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="first">
+            <input type="text" id="show" value="0" />
+        </div>
+    
+        <div class="second">
+            <button onclick="Clear()" class="color">AC</button>
+            <button onclick="Opt('+/-')" class="color">+/-</button>
+            <button onclick="Opt('^')" class="color">^</button>
+            <button onclick="Opt('/')" class="color">/</button>
+            <button onclick="Value(7)">7</button>
+            <button onclick="Value(8)">8</button>
+            <button onclick="Value(9)">9</button>
+            <button onclick="Opt('*')" class="color">*</button>
+            <button onclick="Value(4)">4</button>
+            <button onclick="Value(5)">5</button>
+            <button onclick="Value(6)">6</button>
+            <button onclick="Opt('-')"class="color">-</button>
+            <button onclick="Value(1)">1</button>
+            <button onclick="Value(2)">2</button>
+            <button onclick="Value(3)">3</button>
+            <button onclick="Opt('+')"class="color">+</button>
+            <button onclick="Opt('%')">%</button>
+            <button onclick="Value(0)">0</button>
+            <button onclick="Opt('.')">.</button>
+            <button onclick="Result()" class="bg">=</button>
+        </div>
+    </div>
+    <script src="./calc.js"></script>
+</body>
+</html>
